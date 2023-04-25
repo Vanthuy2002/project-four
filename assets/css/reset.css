@@ -138,3 +138,10 @@ h5,
 h6 {
   font-family: "Sora", sans-serif;
 }
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+button {
+  cursor: pointer;
+}

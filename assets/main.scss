@@ -1,0 +1,124 @@
+$primary: #000958;
+$second: #5e6085;
+$third: #ff5b2e;
+$height: 80px;
+body {
+  background: #e5e5e5;
+}
+
+.width {
+  width: 1170px;
+  max-width: calc(100% - 24px);
+  margin: 0 auto;
+}
+
+.btn {
+  min-width: 117px;
+  height: 48px;
+  font-size: 1.4rem;
+  color: $primary;
+  border: 1px solid $primary;
+  border-radius: 99px;
+  background: transparent;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn.active {
+  background-color: $third;
+  color: #ffffff;
+}
+
+// header
+.header {
+  padding: 16px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  &__inner {
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__link {
+    font-weight: 500;
+    padding: 0 18px;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: $second;
+  }
+  &__link.active-link {
+    color: $primary;
+    font-weight: 600;
+  }
+}
+
+// hero
+.hero {
+  margin-top: $height;
+  padding-top: $height;
+  &__inner {
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+  }
+  &__item {
+    flex: 1;
+  }
+  &__media {
+    position: relative;
+  }
+  &__imgs {
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  &__imgs:first-child {
+    width: 388px;
+    height: 488px;
+  }
+  &__imgs:last-child {
+    width: 186px;
+    height: 244px;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+  }
+
+  .decor {
+    position: absolute;
+    bottom: 0;
+    left: -58px;
+    z-index: -1;
+  }
+  &__heading {
+    width: 517px;
+    font-weight: 800;
+    font-size: 6.6rem;
+    line-height: 1.2;
+    color: $primary;
+    margin-bottom: 24px;
+  }
+  &__desc {
+    width: 391px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #656689;
+    margin-bottom: 38px;
+  }
+  &__btn {
+    width: 189px;
+    height: 60px;
+    background-color: #ff5b2e;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+  }
+  &__contact {
+    padding-left: 24px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    color: $primary;
+  }
+}
