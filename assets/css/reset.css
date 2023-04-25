@@ -99,11 +99,11 @@ section {
   display: block;
 }
 html {
-  font-family: "Sora", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 62.5%;
 }
 body {
-  line-height: 1;
+  font-size: 1.6rem;
 }
 ol,
 ul {
@@ -123,4 +123,18 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+button,
+input,
+textarea {
+  font-family: inherit;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", sans-serif;
 }
