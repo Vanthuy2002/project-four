@@ -190,6 +190,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    row-gap: 145px;
   }
   &__sub {
     font-weight: 600;
@@ -259,7 +260,7 @@ body {
     z-index: -1;
     border-radius: 16px;
   }
-  &__wrapper img {
+  &__img1 {
     width: 450px;
     display: block;
     margin-inline: auto;
@@ -295,5 +296,18 @@ body {
     position: absolute;
     top: -40px;
     right: -33px;
+  }
+  .wrapper__bottom {
+    margin-left: 0;
+    background: linear-gradient(180deg, #c6e2fa 0%, #94c2ea 100%);
+    box-shadow: 0px 17px 77px -8px rgba(190, 165, 139, 0.17);
+    border-radius: 18px;
+  }
+  .wrapper__bottom::after {
+    content: none;
+  }
+  &__img-wrap {
+    width: 100%;
+    display: block;
   }
 }
