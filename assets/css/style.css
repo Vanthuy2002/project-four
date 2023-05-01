@@ -302,6 +302,22 @@ body {
 .about__img-wrap {
   width: 100%;
   display: block;
+  border-radius: 18px;
+}
+.about__decor-img {
+  position: absolute;
+}
+.about__decor-img:nth-child(1) {
+  right: -24px;
+  bottom: -40px;
+}
+.about__decor-img:nth-child(2) {
+  right: -33px;
+  bottom: -47px;
+}
+.about__decor-img:nth-child(3) {
+  right: -42px;
+  bottom: -55px;
 }
 
 /*# sourceMappingURL=style.css.map */

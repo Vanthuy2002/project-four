@@ -303,5 +303,8 @@ body {
   width: 100%;
   display: block;
 }
+.about__decor-img {
+  position: absolute;
+}
 
 /*# sourceMappingURL=style.css.map */

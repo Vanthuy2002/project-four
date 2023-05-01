@@ -309,5 +309,21 @@ body {
   &__img-wrap {
     width: 100%;
     display: block;
+    border-radius: 18px;
+  }
+  &__decor-img {
+    position: absolute;
+  }
+  &__decor-img:nth-child(1) {
+    right: -24px;
+    bottom: -40px;
+  }
+  &__decor-img:nth-child(2) {
+    right: -33px;
+    bottom: -47px;
+  }
+  &__decor-img:nth-child(3) {
+    right: -42px;
+    bottom: -55px;
   }
 }
