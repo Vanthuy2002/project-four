@@ -18,7 +18,7 @@ body {
   height: 48px;
   font-size: 1.4rem;
   color: $primary;
-  border: 1px solid $primary;
+  border: 1px solid #ccc;
   border-radius: 99px;
   background: transparent;
   font-weight: 600;
@@ -576,5 +576,93 @@ body {
     border-radius: 31px;
     line-height: 56px;
     color: #ff5b2e;
+  }
+}
+// pricing
+.pricing {
+  padding: 86px 0;
+  background-color: #fff6ed;
+  &__top {
+    text-align: center;
+  }
+  &__heading {
+    margin-bottom: 24px;
+  }
+  &__desc {
+    width: 709px;
+    line-height: 1.88;
+    margin: 0 auto;
+  }
+  &__change {
+    margin: 38px auto;
+    width: 276px;
+    height: 56px;
+    border-radius: 99px;
+    border: 1px solid $third;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__spinner {
+    padding: 16px 40px;
+    border-radius: inherit;
+  }
+  &__spinner.active {
+    background-color: $third;
+    color: white;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    justify-content: center;
+  }
+  &__item {
+    width: 242px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  &__label {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: $third;
+    margin-bottom: 8px;
+  }
+  &__day-care {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #3f4065;
+    margin-bottom: 24px;
+  }
+  &__number {
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 1.03;
+    color: $primary;
+    margin-bottom: 22px;
+  }
+  &__checkout {
+    width: 246px;
+    height: 44px;
+    font-weight: 500;
+    line-height: 1;
+    color: #ff5b2e;
+    line-height: 44px;
+  }
+  &__list-op {
+    margin-top: 24px;
+  }
+  &__option {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: $four;
+    margin-bottom: 18px;
+  }
+  &__option span {
+    margin-left: 10px;
   }
 }
