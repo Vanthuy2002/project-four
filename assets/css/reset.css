@@ -98,6 +98,10 @@ nav,
 section {
   display: block;
 }
+*::selection {
+  color: #fff;
+  background-color: #2cccff;
+}
 html {
   font-family: "Poppins", sans-serif;
   font-size: 62.5%;
